@@ -1,0 +1,74 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+    box-sizing:border-box; 
+    
+}
+
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    align-items: baseline;
+
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border: solid black 1px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-height: 200px; /* จำกัดความสูงของภาพไม่เกิน 50 พิกเซล */
+    width: auto; /* ให้ความกว้างของภาพปรับตามอัตราส่วน */
+}
+
+.card-details {
+    padding: 20px;
+}
+
+.card-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-details p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.card-details .action {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.action button {
+    margin-right: 10px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.action button.edit {
+    background-color: #4CAF50; /* เขียว */
+}
+
+.action button.delete {
+    background-color: #f44336; /* แดง */
+}

@@ -1,0 +1,64 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.add-product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.add-product-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.add-product-form h3{
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-image {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.image-label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.image-input {
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #00820d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: flex-end; /* จัดให้ปุ่มอยู่ด้านขวาของแบบฟอร์ม */
+    margin-top: 10px; /* เพิ่มช่องว่างด้านบน */
+}

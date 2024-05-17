@@ -1,0 +1,27 @@
+nav {
+    background-color: #333; /* สีพื้นหลังของ navigation */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none; /* เอาจุดออก */
+    padding: 0;
+    margin: 0;
+    display: flex; /* เรียงแนวนอน */
+  }
+  
+  li {
+    padding: 10px 20px; /* เพิ่มช่องว่างรอบขอบ */
+  }
+  
+  a {
+    color: white; /* สีข้อความ */
+    text-decoration: none; /* เอา underline ออก */
+  }
+  
+  a:hover {
+    background-color: #555; /* สีเมื่อ hover */
+  }
+  
